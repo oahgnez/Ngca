@@ -1,8 +1,8 @@
 package com.oahgnez.kotlin.ngca.util
 
-import com.oahgnez.kotlin.drlbbbie.base.BaseActivity
-import com.oahgnez.kotlin.drlbbbie.base.MvpPresenter
-import com.oahgnez.kotlin.drlbbbie.base.MvpView
+import com.oahgnez.kotlin.ngca.base.BaseActivity
+import com.oahgnez.kotlin.ngca.base.MvpPresenter
+import com.oahgnez.kotlin.ngca.base.MvpView
 import com.oahgnez.kotlin.ngca.base.BaseFragment
 
 /**

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Ngca</string>
+
+    <string name ="male">男生</string>
+    <string name="female">女生</string>
+    <string name="picture">漫画</string>
+    <string name="press">出版</string>
+
+    <string name="hot">热门</string>
+    <string name="new_book">新书</string>
+    <string name="repulation">好评</string>
+    <string name="over">完结</string>
+    <string name="month">VIP</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.oahgnez.kotlin.drlbbbie.base
+package com.oahgnez.kotlin.ngca.base
 
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
@@ -6,24 +6,25 @@ import io.reactivex.disposables.Disposable
 /**
  * Created by oahgnez on 2018/5/22.
  */
-abstract class MvpPresenter< V: MvpView> {
-     protected var mView: V? = null
-     private var mDisposable: CompositeDisposable? = null
+abstract class MvpPresenter<V : MvpView> {
+    protected lateinit var mView: V
+    private lateinit var mDisposable: CompositeDisposable
 
     fun bindView(v: V) {
         mView = v
     }
 
     fun unBindView() {
-        mDisposable?.dispose()
-        mView = null
+        if (::mDisposable.isInitialized) {
+            mDisposable.dispose()
+        }
     }
 
     fun addDisposable(s: Disposable) {
-        if (mDisposable == null) {
+        if (!::mDisposable.isInitialized) {
             mDisposable = CompositeDisposable()
         }
-        mDisposable?.add(s)
+        mDisposable.add(s)
     }
 
 }

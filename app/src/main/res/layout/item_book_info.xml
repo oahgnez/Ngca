@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/c9">
+
+    <ImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_cover"
+        android:layout_toRightOf="@id/iv_cover"
+        android:singleLine="true"
+        android:text="圣墟"
+        android:textColor="@color/c1"
+        android:textSize="@dimen/s1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_below="@id/tv_title"
+        android:singleLine="true"
+        android:text="沉淀"
+        android:textColor="@color/c1"
+        android:textSize="@dimen/s2" />
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_below="@id/tv_author"
+        android:singleLine="true"
+        android:text="这是地狱中的魔王们相互撕咬。铁剑和利爪撕裂空气，留下霜冻和火焰的痕迹，血液刚刚飞溅出来，就被高温化作血红色的蒸汽，冲击波在长长的走廊上来来去去，早已没有任何完整的玻璃，连这座建筑物都摇摇欲坠。"
+        android:textColor="@color/c3"
+        android:textSize="@dimen/s2" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_below="@id/tv_des"
+        android:singleLine="true"
+        android:text="16.4万人气  |  99.12%留存"
+        android:textColor="@color/c5"
+        android:textSize="@dimen/s3" />
+
+</RelativeLayout>

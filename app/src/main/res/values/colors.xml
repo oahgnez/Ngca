@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="colorPrimaryLight">#F5F5F5</color>
+    <color name="colorText">#212121</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRipple">#CCCCCC</color>
+
+    <color name="p_text">#333333</color>   <!--重要文字及内容、标题-->
+    <color name="p_flag">#00BCD4</color>      <!--强调、重要标记-->
+
+    <color name="c_1">#666666</color>   <!---->
+
+    <color name="divider">#03000000</color>
+    <color name="bg">#01000000</color>
+
+    <color name="c9">#ffffff</color>
+    <color name="c8">#e8e8e8</color>
+    <color name="c7">#d1d1d1</color>
+    <color name="c6">#bababa</color>
+    <color name="c5">#a3a3a3</color>
+    <color name="c4">#8c8c8c</color>
+    <color name="c3">#747474</color>
+    <color name="c2">#5d5d5d</color>
+    <color name="c1">#464646</color>
+
 </resources>
