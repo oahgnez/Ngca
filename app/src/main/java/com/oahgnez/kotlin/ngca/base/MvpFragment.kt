@@ -1,7 +1,6 @@
 package com.oahgnez.kotlin.ngca.base
 
 import android.os.Bundle
-import com.oahgnez.kotlin.ngca.base.BaseFragment
 
 /**
  * Created by oahgnez on 2018/5/22.

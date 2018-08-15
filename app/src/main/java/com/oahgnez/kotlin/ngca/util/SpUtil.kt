@@ -17,4 +17,8 @@ class SpUtil(file:String){
         map.map { edit.putString(it.key,it.value) }
         edit.commit()
     }
+
+    fun putStringSet(key:String,data:HashSet<String>){
+        mSp.edit().putStringSet(key,data).apply()
+    }
 }

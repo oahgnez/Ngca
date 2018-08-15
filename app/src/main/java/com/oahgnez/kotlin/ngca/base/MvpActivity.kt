@@ -5,8 +5,7 @@ import android.os.Bundle
 /**
  * Created by oahgnez on 2018/5/22.
  */
-abstract class MvpActivity<V : MvpView, P : MvpPresenter<V>> : BaseActivity(),MvpView {
-
+abstract class MvpActivity<V : MvpView, P : MvpPresenter<V>> : BaseActivity(), MvpView {
     protected lateinit var mPresenter: P
 
     abstract fun createPresenter(): P

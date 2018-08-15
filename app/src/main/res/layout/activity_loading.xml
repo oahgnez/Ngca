@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/c9"
     android:orientation="vertical">
 
     <ImageView
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/tv_author"
         android:layout_alignRight="@+id/tv_author"
+        android:layout_marginLeft="14dp"
         android:layout_marginBottom="14dp"
         android:layout_marginRight="25dp"
         android:text="人之初，性本善"
